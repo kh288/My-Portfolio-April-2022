@@ -10,8 +10,8 @@
     <title>My Portfolio</title>
 </head>
 <body>
-    <main class="justify-content-center">
-        <header class="card text-center">
+    <main class="container justify-content-center">
+        <header class="card text-center m-3">
             <h1>Kevin Hernandez</h1>
             <div class="btn-group my-3">
                 <button class="btn">About</button>
@@ -23,14 +23,37 @@
             </div>
         </header>
 
-        <div class="card">
-            <h2>My most recent project</h2>
+        <div class="card text-center m-3">
+            <h2>Featured Project</h2>
             <p>I recently helped build a portfolio stock portfolio analyzer with visualiztion from Chart.js and data from Alpha Advantage API</p>
-            <a class="card project-link img-fluid" href="https://kh288.github.io/Stock-Portfolio-Analyzer/" target="_blank"></a>
-            <div class="sub-card">
-                
+            <div class="btn-group">
+                <a href="https://github.com/kh288/Stock-Portfolio-Analyzer" class="btn" target="_blank">Repository</a>
+                <a href="https://kh288.github.io/Stock-Portfolio-Analyzer/" class="btn" target="_blank">Deployed</a>
             </div>
+            <img class="project-img" src="assets/images/stock-portfolio-chart.png" alt="Image of my most recent project">
         </div>
+
+        <div class="container-md m-3">
+            <div class="row gap-3 me-3">
+                <div class="card text-center col-md">
+                    <h2>Weather App</h2>
+                    <div class="btn-group">
+                        <a href="https://github.com/kh288/Weather-App" class="btn" target="_blank">Repository</a>
+                        <a href="https://kh288.github.io/Weather-App/" class="btn" target="_blank">Deployed</a>
+                    </div>
+                    <img class="project-img" src="assets/images/stock-portfolio-chart.png" alt="Image of my most recent project">
+                </div>
+                <div class="card text-center col-md">
+                    <h2>Weather App</h2>
+                    <div class="btn-group">
+                        <a href="https://github.com/kh288/Weather-App" class="btn" target="_blank">Repository</a>
+                        <a href="https://kh288.github.io/Weather-App/" class="btn" target="_blank">Deployed</a>
+                    </div>
+                    <img class="project-img" src="assets/images/stock-portfolio-chart.png" alt="Image of my most recent project">
+                </div>
+            <!-- </div> -->
+        </div>
+
     </main>
 
 </body>
