@@ -24,8 +24,8 @@ html body {
 }
 
 .btn:hover {
-    color: #ddd;
-    background-color: #999;
+    color: #fff;
+    background-color: #bbb;
 }
 
 .btn:focus {
