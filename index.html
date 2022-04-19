@@ -15,17 +15,17 @@
         <header class="card text-center m-3">
             <h1>Kevin Hernandez</h1>
             <div class="btn-group my-3">
-                <button class="btn">About</button>
-                <button class="btn">Resume</button>
-                <button class="btn">Contact</button>
+                <a href="#projects" class="btn">Projects</a>
+                <a href="#" class="btn">Resume</a>
+                <a href="#contact" class="btn">Contact</a>
             </div>
             <div class="sub-card text-center">
                 <p>Welcome to my portfolio, if you like what you see, feel free to contact me and perhaps we can work together!</p>
-                <p>Here's 3 of my most recent projects, and my contact information</p>
+                <p>Here's three of my most recent projects, my resume, and my contact information.</p>
             </div>
         </header>
         <!-- Card Group for the Featured Project -->
-        <div class="card text-center m-3">
+        <div id="projects" class="card text-center m-3">
             <h2>Stock Portfolio Analyzer</h2>
             <div class="sub-card">
                 <p>I recently helped build a portfolio stock portfolio analyzer with visualiztion from Chart.js and data from Alpha Advantage API</p>
@@ -37,9 +37,8 @@
             <img class="project-img" src="assets/images/stock-portfolio-chart.png" alt="Image of my most recent project">
         </div>
         <!-- Card group for the 2 other projects -->
-        <!-- <div class="container-fluid"> -->
         <div class="d-md-flex">
-            <div class="card col text-center">
+            <div class="card col text-center m-3">
                 <h2>Weather App</h2>
                 <div class="btn-group">
                     <a href="https://github.com/kh288/Weather-App" class="btn" target="_blank">Repository</a>
@@ -47,7 +46,7 @@
                 </div>
                 <img class="project-img" src="assets/images/weather-app.png" alt="Image of my most recent project">
             </div>
-            <div class="card col text-center">
+            <div class="card col text-center m-3">
                 <h2>Daily Planner</h2>
                 <div class="btn-group">
                     <a href="https://github.com/kh288/Daily-Planner" class="btn" target="_blank">Repository</a>
@@ -56,7 +55,19 @@
                 <img class="project-img" src="assets/images/daily-planner.png" alt="Image of my most recent project">
             </div>
         </div>
-
+        <!-- Resume -->
+        <div class="card">
+            Here's an up to date Resume of mine of past work I've done.
+        </div>
+        <!-- Contact -->
+        <div id="contact" class="card">
+            <h2>You can reach me here!</h2>
+            <div class="sub-card text-center">
+                <a href="#" class="btn">Github</a>
+                <a href="#" class="btn">Linkedin</a>
+                <a href="#" class="btn">Contact Information</a>
+            </div>
+        </div>
     </main>
 
 </body>
